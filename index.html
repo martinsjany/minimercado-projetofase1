@@ -127,6 +127,31 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 </section>
+    <section id="agendamento" class="container mt-5">
+  <h2>Agendamento de Entrega ou Retirada</h2>
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Escolha o serviço:</label><br>
+      <input type="radio" id="retirada" name="servico" value="Retirada no local" required>
+      <label for="retirada">Retirada no local</label><br>
+      
+      <input type="radio" id="entrega" name="servico" value="Tele-entrega">
+      <label for="entrega">Delivey</label>
+    </div>
+
+    <div class="mb-3">
+      <label for="data" class="form-label">Escolha a data:</label>
+      <input type="date" class="form-control" id="data" name="data" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="horario" class="form-label">Escolha o horário:</label>
+      <input type="time" class="form-control" id="horario" name="horario" required>
+    </div>
+
+    <button type="submit" class="btn btn-success">Agendar</button>
+  </form>
+</section>
     
     <footer>
         <p>&copy; 2025 MiniMercado HortMix. Todos os direitos reservados.</p>
