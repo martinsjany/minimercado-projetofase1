@@ -39,7 +39,11 @@
             </ul>
         </nav>
     </header>
-    
+    <div class="text-end p-2 bg-light">
+    <button onclick="alterarFonte(1)" class="btn btn-outline-secondary btn-sm" aria-label="Aumentar fonte">A+</button>
+    <button onclick="alterarFonte(-1)" class="btn btn-outline-secondary btn-sm" aria-label="Reduzir fonte">A-</button>
+</div>
+
     <main>
         <section id="produtos">
             <h2>Nossos Produtos</h2>
@@ -87,10 +91,10 @@
         </section>
     </main>
    <section id="finalizacao" class="container mt-5">
-    <h2 class="mb-4">Finalizar Compra</h2>
+    <h2 class="mb-4">Cadastro e Agendamento</h2>
 
     <form>
-        <h4>Cadastro e Agendamento</h4>
+        <h4>Dados do Cliente</h4>
         <div class="row mb-3">
             <div class="col-md-6">
                 <label for="nome" class="form-label">Nome completo</label>
