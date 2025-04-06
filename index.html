@@ -86,6 +86,47 @@
             <p><strong>Delivery:</strong> Receba seus produtos em casa por uma taxa fixa de R$ 7,00.</p>
         </section>
     </main>
+    <section id="cadastro" class="container mt-5">
+  <h2>Cadastro do Cliente</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome completo:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="cpf" class="form-label">CPF:</label>
+      <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="endereco" class="form-label">Endereço:</label>
+      <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Rua, nº, bairro" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">E-mail:</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="telefone" class="form-label">Telefone:</label>
+      <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Sexo:</label><br>
+      <input type="radio" id="feminino" name="sexo" value="Feminino" required>
+      <label for="feminino">Feminino</label><br>
+      <input type="radio" id="masculino" name="sexo" value="Masculino">
+      <label for="masculino">Masculino</label><br>
+      <input type="radio" id="outro" name="sexo" value="Outro">
+      <label for="outro">Outro</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
     
     <footer>
         <p>&copy; 2025 MiniMercado HortMix. Todos os direitos reservados.</p>
