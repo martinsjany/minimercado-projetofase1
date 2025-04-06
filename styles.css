@@ -43,7 +43,10 @@ main {
     border-radius: 8px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
-
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
 .produto img {
     width: 100px;
     height: 100px;
